@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blog | Tharindu W</title>
+<meta name="description" content="Notes on corporate training, process design, learning & development, and digital privacy.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a href="index.html" class="brand"><span class="brand-dot" aria-hidden="true"></span>Your Name</a>
+
+    <div class="nav-right">
+      <input type="checkbox" id="nav-toggle" class="visually-hidden">
+      <label for="nav-toggle" class="nav-burger" aria-label="Open menu"><span></span></label>
+
+      <nav class="nav-links">
+        <a href="index.html#about">About</a>
+        <a href="index.html#work">What I Do</a>
+        <a href="blog.html">Blog</a>
+        <a href="index.html#faq">FAQ</a>
+        <a href="index.html#contact" class="nav-cta">Contact</a>
+      </nav>
+
+      <input type="checkbox" id="theme-toggle" class="visually-hidden">
+      <label for="theme-toggle" class="theme-switch" aria-label="Toggle dark theme">
+        <span class="theme-switch-track"><span class="theme-switch-thumb"></span></span>
+      </label>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section>
+    <div class="wrap">
+      <span class="eyebrow">Blog</span>
+      <h1>Notes on training, process, and digital privacy.</h1>
+      <p class="hero-lede" style="margin-top:14px;">Short, practical write-ups from running training programs and thinking too much about security hygiene. No newsletter pop-up, because this site doesn't run scripts to make one.</p>
+
+      <div class="filter-group">
+        <input type="radio" name="filter" id="filter-all" class="visually-hidden" checked>
+        <input type="radio" name="filter" id="filter-privacy" class="visually-hidden">
+        <input type="radio" name="filter" id="filter-training" class="visually-hidden">
+        <input type="radio" name="filter" id="filter-ld" class="visually-hidden">
+
+        <div class="filter-tabs">
+          <label for="filter-all">All</label>
+          <label for="filter-privacy">Privacy &amp; Security</label>
+          <label for="filter-training">Process &amp; Training</label>
+          <label for="filter-ld">Learning &amp; Development</label>
+        </div>
+
+        <div class="post-grid post-list">
+          <a href="blog/privacy-basics-for-trainers.html" class="post-card cat-privacy">
+            <span class="tag tag-privacy">Privacy &amp; Security</span>
+            <h3>Five privacy habits every trainer should teach on day one</h3>
+            <p class="post-excerpt"><span class="redacted">Hover to declassify —</span> most security incidents start with a habit, not a hacker.</p>
+            <span class="post-meta">4 min read · digital privacy</span>
+          </a>
+
+          <a href="blog/tribal-knowledge-to-process.html" class="post-card cat-training">
+            <span class="tag tag-training">Process &amp; Training</span>
+            <h3>Turning tribal knowledge into a process anyone can follow</h3>
+            <p class="post-excerpt"><span class="redacted">Hover to declassify —</span> if only one person can do it, it isn't a process yet.</p>
+            <span class="post-meta">5 min read · process design</span>
+          </a>
+
+          <a href="blog/onboarding-checklists-fail.html" class="post-card cat-ld">
+            <span class="tag tag-ld">Learning &amp; Development</span>
+            <h3>Why most onboarding checklists fail in the first week</h3>
+            <p class="post-excerpt"><span class="redacted">Hover to declassify —</span> a checked box isn't the same thing as a confident new hire.</p>
+            <span class="post-meta">4 min read · onboarding</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <span>© 2026 Tharindu Widanagama. All rights reserved.</span>
+    <span>Built without a single line of JavaScript. And everything's human written!🤖</span>
+  </div>
+</footer>
+
+</body>
+</html>
